@@ -45,3 +45,56 @@ body {
   font-size: 27px;
   margin-right: 20px;
 }
+
+#corpo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+#direita {
+}
+
+#esquerda {
+  margin-left: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+
+  align-items: center;
+}
+
+#cor-atual {
+  margin-top: 10px;
+  height: 200px;
+  width: 200px;
+
+  border: 10px solid #000;
+  border-radius: 15px;
+}
+
+#btn-responder {
+  margin-top: 10px;
+
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+
+  font-size: 25px;
+  font-weight: bold;;
+  color: white;
+  padding: 15px 45px;
+}
+
+#rodape {
+  background-color: rgb(26, 26, 32);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 160px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
